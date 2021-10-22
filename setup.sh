@@ -28,20 +28,20 @@ exit 0
 fi
 mkdir /var/lib/premium-script;
 echo "IP=" >> /var/lib/premium-script/ipvps.conf
-wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/cf.sh && chmod +x cf.sh && ./cf.sh
+wget https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/cf.sh && chmod +x cf.sh && ./cf.sh
 #install ssh ovpn
-wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
-wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
+wget https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
 #install ssr
-wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
-wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
+wget https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
+wget https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
 #installwg
-wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
+wget https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/wg.sh && chmod +x wg.sh && screen -S wg ./wg.sh
 #install v2ray
-wget http://raw.githubusercontent.com/ADITYAH2/halucok/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
+wget https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/ins-vt.sh && chmod +x ins-vt.sh && screen -S v2ray ./ins-vt.sh
 #install L2TP
-wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
-wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
+wget https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 #install edu
 #wget https://halucok.me/websocket.sh && chmod +x websocket.sh && ./websocket.sh
 #wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/edu/jamal.sh && chmod +x jamal.sh && ./jamal.sh
@@ -49,11 +49,11 @@ wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/set-br.sh && chmod 
 
 # Encrypt
 cd
-wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/enc.sh && chmod +x enc.sh && ./enc.sh
+wget https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/enc.sh && chmod +x enc.sh && ./enc.sh
 
 # Antiabuse
 cd
-wget https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/antiabuse.sh && chmod +x antiabuse.sh && ./antiabuse.sh
+wget https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/menu-all/antiabuse.sh && chmod +x antiabuse.sh && ./antiabuse.sh
 
 rm -f /root/enc.sh
 rm -f /root/antiabuse.sh
@@ -83,7 +83,7 @@ WantedBy=multi-user.target
 EOF
 systemctl daemon-reload
 systemctl enable autosett
-wget -O /etc/set.sh "https://raw.githubusercontent.com/ADITYAH2/halucok/main/set.sh"
+wget -O /etc/set.sh "https://raw.githubusercontent.com/kenzotelco/ip-sahaja/main/set.sh"
 chmod +x /etc/set.sh
 history -c
 echo "1.2" > /home/ver
@@ -131,11 +131,11 @@ echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo "   - White Label" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "   - Dev/Main                : GEO GABUT"  | tee -a log-install.txt
-echo "   - Telegram                : T.me/sampiiiiu"  | tee -a log-install.txt
-echo "   - Instagram               : @sampiiiiu"  | tee -a log-install.txt
-echo "   - Whatsapp                : 085333790161"  | tee -a log-install.txt
-echo "   - Facebook                : https://www.facebook.com/MuhammadAmin" | tee -a log-install.txt
+echo "   - Dev/Main                : error"  | tee -a log-install.txt
+echo "   - Telegram                : T.me/kenzozairul"  | tee -a log-install.txt
+echo "   - Instagram               : error"  | tee -a log-install.txt
+echo "   - Whatsapp                : error"  | tee -a log-install.txt
+echo "   - Facebook                : error" | tee -a log-install.txt
 echo "------------------Script Created By geo-----------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 10 Sec"
