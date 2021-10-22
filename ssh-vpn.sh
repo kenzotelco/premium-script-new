@@ -97,7 +97,7 @@ echo Cek Hak Akses...
 sleep 0.5
 cd
 cd /usr/local/bin/
-wget -O /usr/local/bin/ws-udin https://raw.githubusercontent.com/ADITYAH2/halucok/main/edu/ws-udin
+wget -O /usr/local/bin/ws-udin https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/edu/ws-udin
 chmod +x /usr/local/bin/ws-udin
 
 echo "Installing Service" | lolcat
