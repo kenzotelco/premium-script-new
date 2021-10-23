@@ -421,7 +421,7 @@ wget -O menu "https://raw.githubusercontent.com/kenzotelco/premium-script-new/ma
 wget -O trojaan "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/menu-all/trojaan.sh"
 wget -O vleess "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/menu-all/vleess.sh"
 wget -O wgr "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/menu-all/wgr.sh"
-wget -O l2tp "https://raw.githubusercontent.com/ADITYAH2/halucok/main/menu-all/l2tp.sh"
+wget -O l2tp "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/menu-all/l2tp.sh"
 wget -O v2raay "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/menu-all/v2raay.sh"
 wget -O ssh "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/menu-all/ssh.sh"
 wget -O sstpp "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/menu-all/sstpp.sh"
