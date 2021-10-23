@@ -403,6 +403,7 @@ wget -O port-wg "https://raw.githubusercontent.com/kenzotelco/premium-script-new
 wget -O port-tr "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/port-tr.sh"
 wget -O port-sstp "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/port-sstp.sh"
 wget -O port-squid "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/port-squid.sh"
+wget -O port-squid "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/menu-all/format"
 wget -O port-ws "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/port-ws.sh"
 wget -O port-vless "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/port-vless.sh"
 wget -O wbmn "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/webmin.sh"
@@ -480,6 +481,7 @@ chmod +x v2raay
 chmod +x ssh
 chmod +x sstpp
 chmod +x ssssr
+chmod =x format
 #chmod +x add-trgo
 echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
 echo "0 0 * * * root xp" >> /etc/crontab
