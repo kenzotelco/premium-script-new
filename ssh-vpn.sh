@@ -408,7 +408,7 @@ wget -O port-vless "https://raw.githubusercontent.com/kenzotelco/premium-script-
 wget -O wbmn "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/webmin.sh"
 wget -O update "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/update.sh"
 wget -O /usr/bin/clear-log https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/clear-log && chmod +x /usr/bin/clear-log && cd /usr/bin && apt install -y dos2unix && dos2unix clear-log
-wget -O xp "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/main/xp.sh"
+wget -O xp "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/xp.sh"
 wget -O /usr/bin/user-limit https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/user-limit.sh && chmod +x /usr/bin/user-limit
 #wget -O /usr/bin/paket https://halucok.me/menu-all/paket.sh && chmod +x /usr/bin/paket.sh
 wget -O cfd "https://raw.githubusercontent.com/kenzotelco/premium-script-new/main/cfd.sh"
